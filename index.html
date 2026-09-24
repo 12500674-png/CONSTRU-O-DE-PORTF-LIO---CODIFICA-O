@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduardo Perez | Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Eduardo<span>.dev</span></a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo claro/escuro" title="Alternar tema">
+          <span id="theme-icon">Modo escuro</span>
+        </button>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__hello">Olá, eu sou</p>
+          <h1 class="hero__name">Eduardo Perez Amorim Silva</h1>
+          <h2 class="hero__role">Desenvolvedor Full Stack</h2>
+          <p class="hero__desc">
+            Transformo ideias em interfaces rápidas, acessíveis e com código limpo —
+            do front-end ao back-end.
+          </p>
+          <div class="hero__cta">
+            <a href="#contato" class="btn btn--primary">Entrar em contato</a>
+            <a href="#sobre" class="btn btn--outline">Saber mais</a>
+          </div>
+        </div>
+        <div class="hero__photo">
+          <img src="foto-perfil.jpg" alt="Foto de Eduardo Perez Amorim Silva">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section__title" data-aos>Sobre mim</h2>
+        <div class="about">
+          <p class="about__text" data-aos>
+            Sou <strong>Eduardo Perez Amorim Silva</strong>, desenvolvedor full stack
+            em formação, apaixonado por construir produtos digitais do zero — da
+            interface ao servidor. Gosto de resolver problemas reais com código
+            simples e organizado, sempre buscando aprender novas tecnologias e boas
+            práticas de mercado.
+          </p>
+          <p class="about__text" data-aos>
+            Hoje foco em HTML, CSS, JavaScript e nas bases de back-end, unindo
+            atenção a detalhes visuais com lógica sólida por trás de cada tela.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title" data-aos>Habilidades</h2>
+        <div class="skills">
+          <div class="skill-card" data-aos><p>HTML5</p></div>
+          <div class="skill-card" data-aos><p>CSS3</p></div>
+          <div class="skill-card" data-aos><p>JavaScript</p></div>
+          <div class="skill-card" data-aos><p>Node.js</p></div>
+          <div class="skill-card" data-aos><p>SQL</p></div>
+          <div class="skill-card" data-aos><p>Git & GitHub</p></div>
+          <div class="skill-card" data-aos><p>Responsividade</p></div>
+          <div class="skill-card" data-aos><p>Figma</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title" data-aos>Contato</h2>
+        <div class="contact" data-aos>
+          <p>Telefone: <a href="tel:+553189891602">+55 31 8989-1602</a></p>
+          <p>Email: <a href="mailto:12500674@aluno.cotemig.com.br">12500674@aluno.cotemig.com.br</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/eduardo-perez-amorim-silva-4a1a59276/" target="_blank" rel="noopener">eduardo-perez-amorim-silva</a></p>
+          <p>Belo Horizonte - MG</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Eduardo Perez Amorim Silva. Todos os direitos reservados.</p>
+      <ul class="footer__contact">
+        <li>Telefone: +55 31 8989-1602</li>
+        <li>Email: 12500674@aluno.cotemig.com.br</li>
+        <li><a href="https://www.linkedin.com/in/eduardo-perez-amorim-silva-4a1a59276/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
